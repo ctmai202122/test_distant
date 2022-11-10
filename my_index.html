@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Design d'extérieur</title>
+
+<!--Slider images-->
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+<!--Slider images-->
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<header id="bandeau" class="container">
+   
+    <p id="logo" ><a href="#">G </a></p>
+
+    <nav id="menuprincipal">
+           <!-- <a href="#"><i class="fa-solid fa-bars"></i> -->
+       
+        <ul>
+            <li><a href="index.html" class="choix">ACCUEIL</a></li>
+            <li><a href="apropos.html">A&nbspPROPOS</a></li>
+            <li><a href="galerie.html">GALERIE</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+   </nav>
+      
+</header>
+    <!-- <h1>
+        <a href="index.html">GARDEN</a>
+     </h1>
+     <p classs="titre">PRO DESIGN D'EXTERIEUR</p> -->
+
+</header>
+
+<main id="contenu" class="container">
+    <!--Slider images et titre-->
+    <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider">
+            <img src="images-garden/swiper-1.jpg" alt="Petit pont" title="#htmlcaption1"/>
+            <img src="images-garden/swiper-2.jpg" alt="Jardin détente" title="#htmlcaption2" data-transition="slideInLeft" />
+            <img src="images-garden/swiper-3.jpg" alt="Plan d'eau Hippocampe" title="#htmlcaption3" />
+        </div>
+    </div>
+    <div id="htmlcaption1" class="nivo-caption">
+        <h1>
+            <a href="index.html">GARDEN</a>
+         </h1>
+         <p class="titre"><span>PRO</span> DESIGN D'EXTERIEUR</p>
+    <!--<a href="#">a link</a>.-->   
+    </div>
+
+    <div id="htmlcaption2" class="nivo-caption">
+        <h1>
+            <a href="index.html">GARDEN</a>
+         </h1>
+         <p class="titre"><span>PRO</span>  DESIGN D'EXTERIEUR</p><!--<a href="#">a link</a>.-->  
+    </div>
+
+    <div id="htmlcaption3" class="nivo-caption">
+        <h1>
+            <a href="index.html">GARDEN</a>
+         </h1>
+         <p class="titre"><span>PRO</span> DESIGN D'EXTERIEUR</p> <!--<a href="#">a link</a>.  -->
+   </div>
+
+<section>
+    <article>
+
+    </article>
+</section>
+
+<!--Le design de paysage div avec 2 colonnes 
+    la premiere 1 titre et 1image et la 2eme colonne une liste avec 2 colonnes et 1 input(texte)-->
+<div>
+
+</div>
+
+<!--image en background -->
+
+<!---Deux colonnes avec coordonnees -->
+
+<!---Script du Slider-->
+<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
+<script type="text/javascript">
+
+
+/* ======Réaction du menu bars=======*/
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+$('#menuprincipal #burger').click(function(){
+    $('#menuprincipal ul').slideToggle(1500);
+
+});
+</script>
+
+</body>
